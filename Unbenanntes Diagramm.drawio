@@ -1,9 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T14:52:32.737Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="9mKWj7oQUxXugsodDoEf" type="github">
-  <diagram name="Seite-1" id="wV6sna8IrzvgfRLdaDRg">
+<mxfile host="app.diagrams.net" modified="2023-12-18T10:26:45.433Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" version="22.1.11" etag="pC_425TalBvGWjKybqEd" type="github">
+  <diagram name="Seite-1" id="X_myUvSozlDIALfHOnDP">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2" value="SFTP-Agent" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="33" width="96" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="SFTP-Server" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="211" width="101" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Datenbankserver" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="361" y="33" width="135" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Anfragen" style="curved=1;startArrow=none;endArrow=block;exitX=1.0050346851348877;exitY=0.5090686573701746;entryX=-0.0028053510307085396;entryY=0.4981023203028311;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9933992895749536;exitY=0.4981023203028311;entryX=0.002469098126446759;entryY=0.5090686573701746;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
