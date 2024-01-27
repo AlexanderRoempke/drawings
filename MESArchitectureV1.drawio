@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" modified="2024-01-27T23:31:11.769Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="pnGTbHljMJac8hm91QYv" version="23.0.2" type="github">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1338" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dqtb0eiwO-eRpfW20rxa-1" value="&lt;div&gt;Product&lt;/div&gt;&lt;div&gt;-ProductID&lt;/div&gt;&lt;div&gt;-ProductDescription&lt;/div&gt;&lt;div&gt;-MaterialID&lt;/div&gt;&lt;div&gt;-MaterialRevision&lt;/div&gt;&lt;div&gt;-OrderId&lt;/div&gt;&lt;div&gt;-CreationDate&lt;/div&gt;&lt;div&gt;-CurrentProductionStep&lt;/div&gt;&lt;div&gt;-Status&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Dqtb0eiwO-eRpfW20rxa-2" value="&lt;div&gt;ProductionOrder&lt;/div&gt;&lt;div&gt;OrderId&lt;/div&gt;&lt;div&gt;MaterialNumber&lt;/div&gt;&lt;div&gt;MaterialRevision&lt;br&gt;&lt;/div&gt;&lt;div&gt;Count&lt;/div&gt;&lt;div&gt;WorkFlow&lt;/div&gt;&lt;div&gt;WorkflowRevision&lt;br&gt;&lt;/div&gt;&lt;div&gt;CreationDate&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="70" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Dqtb0eiwO-eRpfW20rxa-3" value="&lt;div&gt;Material&lt;/div&gt;&lt;div&gt;MaterialId&lt;/div&gt;&lt;div&gt;MaterialRevision&lt;/div&gt;&lt;div&gt;MaterialDescirption&lt;/div&gt;&lt;div&gt;FremdSchl{BOM}&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Dqtb0eiwO-eRpfW20rxa-4" value="&lt;div&gt;BOM&lt;/div&gt;&lt;div&gt;BomId&lt;/div&gt;&lt;div&gt;BomRevision&lt;br&gt;&lt;/div&gt;&lt;div&gt;Materiralid&lt;/div&gt;&lt;div&gt;MaterialRevision&lt;/div&gt;&lt;div&gt;Recipe:{&lt;/div&gt;&lt;div&gt;MaterialId&lt;/div&gt;&lt;div&gt;MaterialRev&lt;/div&gt;&lt;div&gt;Count&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Dqtb0eiwO-eRpfW20rxa-5" value="&lt;div&gt;Workflow&lt;/div&gt;&lt;div&gt;WorkflowID&lt;/div&gt;&lt;div&gt;WorkflowRev&lt;/div&gt;&lt;div&gt;Descirption&lt;/div&gt;&lt;div&gt;Productionsteps&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;Prudctionstep{&lt;/div&gt;&lt;div&gt;productionstepid&lt;/div&gt;&lt;div&gt;productionsteprev&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;SuccessNext&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;Productionstepid&lt;/div&gt;&lt;div&gt;ProductionstepRev&lt;/div&gt;&lt;div&gt;CodeEvent(##)&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;FailorNext&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;div&gt;Productionstepid&lt;/div&gt;&lt;div&gt;ProductionstepRev&lt;/div&gt;&lt;div&gt;CodeEvent(##)&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Recursive?{&lt;/div&gt;&lt;div&gt;CodeEvent(##)&lt;br&gt;&lt;/div&gt;&lt;div&gt;}}&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="520" width="440" height="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
